@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="conteiner">
+
+
+        <div class="conteiner-title">
+            <h1>ECUACIONES DE SEGUNDO GRADO</h1>
+            <p>Las ecuaciones de segundo grado son de la forma ax^2 + bx + c = 0; donde a, b y c son números reales (que no son cero); donde x se llama variable o incógnita; a y b se llaman coeficientes de las incógnitas y c recibe el nombre de término independiente.</p>
+        </div>
+
+        <div class="conteiner-ecuacion">
+            <form id=datos>
+                <div class="conteiner-ecuacion_datos">
+                    <label for="" class="datos">
+                        <input type="number" name="" id="dato1" placeholder="coeficiente a">
+                    </label>
+                        
+                    <label for="" class="datos">
+                        <input type="number" name="" id="dato2" placeholder="coeficiente b">
+                    </label>
+                    
+                    <label for="" class="datos">
+                         <input type="number" name="" id="dato3" placeholder="termino c">
+                    </label>
+                </div>
+
+                <div class="operar">
+                    <input type="button" value="OPERAR" onclick="operar()">
+                    <input type="button" value="Limpiar" onclick="limpiar()">
+                </div>
+            </form>
+        </div>
+
+        <div class="conteiner-cuerpo">
+            <p>Una ecuación de segundo grado tiene como conjunto solución a dos elementos que se le puede representar como x1 y x2.</p>
+
+            <div class="resultado">
+                <div><p id="raiz1">x1</p></div>
+                <div><p id="raiz2">x2</p></div>
+            </div>
+        </div>
+        
+
+
+
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+</html>

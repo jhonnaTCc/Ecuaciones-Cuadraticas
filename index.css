@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+    body{
+        background-color: rgba(7, 8, 19, 0.986);;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .conteiner{
+        min-height: 80vh;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        color: white;
+        max-width: 500px;
+        border: white 5PX;
+    }
+
+    .conteiner div{
+        padding: 20px;
+        text-align: center;
+    }
+
+    .conteiner div h1{
+        color:rgba(83, 248, 240, 0.87);
+        box-shadow: 5px 5px 30px  rgba(83, 248, 240, 0.87), -5px -5px 30px  rgba(83, 248, 240, 0.87);
+        border-radius: 10px;
+    }
+
+    .conteiner .conteiner-ecuacion{
+        width: 100%;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+   
+
+    .conteiner-ecuacion form{
+        
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    .conteiner-ecuacion_datos{
+        display: flex;
+        flex-direction: column;
+    }
+
+   .datos input{
+        margin: 6px;
+        width: 100px;
+        background-color: rgba(255, 255, 255, 1);
+        border-radius: 5px;
+        border:none;
+        text-align: center;
+        outline-style: none;
+        
+    }
+
+    .operar input{
+        width: 100px;
+        height: 40px;
+        background-color: rgba(72, 191, 247, 0.87);
+        box-shadow: 5px 5px 30px  rgba(72, 191, 247, 0.87), -5px -5px 30px  rgba(72, 191, 247, 0.87);
+        color: white;
+        font-weight: bold;
+        border: none;
+        border-radius: 10px;
+        outline-style: none;
+        margin: 5px 0px;
+        
+        
+    }
+
+    .operar input:focus{
+        border: none;
+        
+    }
+
+    .operar input:active{
+        border: none;
+       
+        
+        
+    }
+
+
+    .operar input:hover{
+        background-color: rgba(83, 248, 240, 0.87);
+        box-shadow: 5px 5px 30px  rgba(83, 248, 240, 0.87), -5px -5px 30px  rgba(83, 248, 240, 0.87);
+    }
+    
+    
+
+
+    .resultado{
+        display: flex;
+        justify-content: space-around;
+        flex-flow: row wrap;
+        
+
+    }
+    .resultado div{
+        margin: 3px;
+        padding: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+        background-color: rgba(70, 126, 247, 0.986);
+        width: 150px;
+        height: 50px;
+}
+  
